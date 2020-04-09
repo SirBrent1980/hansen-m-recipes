@@ -28,6 +28,8 @@
                 <string>%SEARCH_URL%</string>
                 <key>re_pattern</key>
                 <string>Version ([0-9.]+)</string>
+                <key>result_output_var_name</key>
+                <string>display_version</string>
                 <key>request_headers</key>
                 <dict>
                         <key>user-agent</key>
@@ -40,8 +42,6 @@
             <string>com.github.hansen-m.SharedProcessors/BESRelevanceProvider</string>
             <key>Arguments</key>
             <dict>
-                <key>bes_filepath</key>
-                <string>/Applications/Utilities/QnA.app/Contents/Resources/QnA</string>
                 <key>output_var_name</key>
                 <string>version</string>
                 <key>bes_relevance</key>
@@ -53,8 +53,6 @@
             <string>com.github.hansen-m.SharedProcessors/BESRelevanceProvider</string>
             <key>Arguments</key>
             <dict>
-                <key>bes_filepath</key>
-                <string>/Applications/Utilities/QnA.app/Contents/Resources/QnA</string>
                 <key>output_var_name</key>
                 <string>packed_version</string>
                 <key>bes_relevance</key>
